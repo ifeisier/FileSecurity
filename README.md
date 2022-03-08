@@ -33,3 +33,6 @@ java -jar .\filesecurity-1.0.jar -d -source=D:\xxxx_bak -destination=D:\xxxx
 > 
 > 还有就是 src 和 dest 目前只支持一个参数，如果有多个只会使用第一个。
 
+## 测试结果
+
+使用了 Java 随机文件读取，使用多线程，加密 4G 的文件用了 8 分钟。
